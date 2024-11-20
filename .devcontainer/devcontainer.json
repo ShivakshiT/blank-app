@@ -31,3 +31,13 @@
     8501
   ]
 }
+{
+  "name": "Python 3 with MySQL",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "mysql",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "postCreateCommand": "pip install streamlit mysql-connector-python google-api-python-client google-auth",
+  "extensions": [
+    "ms-python.python"
+  ]
+}
