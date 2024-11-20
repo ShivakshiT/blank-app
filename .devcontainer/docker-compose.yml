@@ -6,7 +6,7 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: 123  # Change this to a secure password
+      MYSQL_ROOT_PASSWORD: Shriyantra@01  # Change this to a secure password
       MYSQL_DATABASE: youtube_data
       MYSQL_USER: root
       MYSQL_PASSWORD: Shriyantra@01 # Change this to a secure password
